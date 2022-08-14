@@ -1,0 +1,15 @@
+{
+  "name": "init",
+  "version": "1.0.0",
+  "description": "tuto bot discord",
+  "main": "bot.js",
+  "scripts": {
+    "test": "nodemon bot.js"
+  },
+  "author": "hsuk",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}

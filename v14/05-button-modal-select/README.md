@@ -1,4 +1,4 @@
-# 02-handling
+# 05-button-modal-select
 
 source:
   - https://github.com/discordjs/guide/tree/main/code-samples

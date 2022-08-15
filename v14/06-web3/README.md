@@ -1,5 +1,7 @@
-# 02-handling
+# 06-web3
+
+You can interact with the contract KushToken.
 
 source:
-  - https://github.com/discordjs/guide/tree/main/code-samples
-  - https://discordjs.guide/creating-your-bot/command-handling.html#individual-command-files
+  - https://hardhat.org/tutorial
+  - https://web3js.readthedocs.io/en/v1.7.5/getting-started.html

@@ -1,2 +1,15 @@
 .env
-*/.env
+**/.env
+**/**/.env
+
+node_modules
+**/node_modules
+**/**/node_modules
+
+.package-lock.json
+**/.package-lock.json
+**/**/.package-lock.json
+
+.yarn.lock
+**/.yarn.lock
+**/**/.yarn.lock

@@ -10,7 +10,7 @@ const openai = new OpenAIApi(configuration);
 const command: SlashCommand = {
     command: new SlashCommandBuilder()
         .setName("chatgpt")
-        .setDescription("Talk with chat GPT.")
+        .setDescription("Talk with chat Open AI.")
         .addStringOption(option =>
             option.setName('input')
                 .setDescription('Votre question pour chat GPT.')), // warn with "," at end
@@ -25,10 +25,10 @@ const command: SlashCommand = {
         const gptResponse: any = await openai.createCompletion({
             model: "text-davinci-003",
             prompt: question,
-            max_tokens: 60,
-            temperature: 0.3,
-            top_p: 0.3,
-            presence_penalty: 0,
+            max_tokens: 600,
+            temperature: 0.5,
+            top_p: 0.5,
+            presence_penalty: 0.5,
             frequency_penalty: 0.5,
         });
 
